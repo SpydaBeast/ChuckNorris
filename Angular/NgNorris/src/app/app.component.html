@@ -1,20 +1,123 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<head>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+</head>
 
+<body>
+  <div class="container" style="text-align:center">
+    <h1>
+      Welcome to {{ title }}!
+    </h1>
+    <h2>{{slogan}}</h2>
+  </div>
+  <div class="container">
+    Are you a software developer? Do you think about {{hero}} all the time? Do you want to develop an application in Angular
+    so you and your freinds and family can have be up-to-date for all the most awesome {{hero}} jokes from https://api.chucknorris.io.
+  </div>
+  <div class="container">Well...</div>
+  <div class="container">You've came to the right place!</div>
+</body>
+<div class="container">
+  <div class="card">
+    <div class="card title">
+      <h1>Random Jokes</h1>
+    </div>
+    <div class="card body">
+      Panel for random jokes Place Holder for client HTTP call
+    </div>
+  </div>
+</div>
+<div>
+  <div class="container">
+    <h1>Categories </h1>
+    <ngb-accordion #acc="ngbAccordion">
+      <ngb-panel title="Explicit">
+        <ng-template ngbPanelContent>
+          Place Holder for client HTTP call
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel title="Dev">
+        <ng-template ngbPanelContent>
+          Place Holder for client HTTP call
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel title="Food">
+        <ng-template ngbPanelContent>
+          Place Holder for client HTTP call
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel title="Celebrity">
+        <ng-template ngbPanelContent>
+          Place Holder for client HTTP call
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel title="Science">
+        <ng-template ngbPanelContent>
+          Place Holder for client HTTP call
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel title="Sport">
+        <ng-template ngbPanelContent>
+          Place Holder for client HTTP call
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel title="Political">
+        <ng-template ngbPanelContent>
+          Place Holder for client HTTP call
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel title="Religion">
+        <ng-template ngbPanelContent>
+          Place Holder for client HTTP call
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel title="Animal">
+        <ng-template ngbPanelContent>
+          Place Holder for client HTTP call
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel title="History">
+        <ng-template ngbPanelContent>
+          Place Holder for client HTTP call
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel title="Music">
+        <ng-template ngbPanelContent>
+          Place Holder for client HTTP call
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel title="Travel">
+        <ng-template ngbPanelContent>
+          Place Holder for client HTTP call
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel title="Career">
+        <ng-template ngbPanelContent>
+          Place Holder for client HTTP call
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel title="Money">
+        <ng-template ngbPanelContent>
+          Place Holder for client HTTP call
+        </ng-template>
+      </ngb-panel>
+      <ngb-panel title="Fashion">
+        <ng-template ngbPanelContent>
+          Place Holder for client HTTP call
+        </ng-template>
+      </ngb-panel>
+    </ngb-accordion>
+  </div>
+  <div style="text-align:center">
+    <i class="fab fa-angular fa-3x"></i>Created w/Angular
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"></script>

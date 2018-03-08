@@ -26,7 +26,7 @@
       <h1>Random Jokes</h1>
     </div>
     <div class="card body">
-      Panel for random jokes Place Holder for client HTTP call
+        <app-jokes></app-jokes>
     </div>
   </div>
 </div>
@@ -36,32 +36,36 @@
     <ngb-accordion #acc="ngbAccordion">
       <ngb-panel title="Explicit">
         <ng-template ngbPanelContent>
-          Place Holder for client HTTP call
+          <div>
+              <app-explicit></app-explicit>
+          </div>
         </ng-template>
       </ngb-panel>
       <ngb-panel title="Dev">
         <ng-template ngbPanelContent>
-          Place Holder for client HTTP call
+          <div>
+            <app-dev></app-dev>
+          </div>
         </ng-template>
       </ngb-panel>
       <ngb-panel title="Food">
         <ng-template ngbPanelContent>
-          Place Holder for client HTTP call
+          <app-food></app-food>
         </ng-template>
       </ngb-panel>
       <ngb-panel title="Celebrity">
         <ng-template ngbPanelContent>
-          Place Holder for client HTTP call
+          <app-celebrity></app-celebrity>
         </ng-template>
       </ngb-panel>
       <ngb-panel title="Science">
         <ng-template ngbPanelContent>
-          Place Holder for client HTTP call
+          <app-science></app-science>
         </ng-template>
       </ngb-panel>
-      <ngb-panel title="Sport">
+      <ngb-panel title="Sports">
         <ng-template ngbPanelContent>
-          Place Holder for client HTTP call
+          <app-sports></app-sports>
         </ng-template>
       </ngb-panel>
       <ngb-panel title="Political">

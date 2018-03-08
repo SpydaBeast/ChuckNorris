@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { JokesComponent } from './jokes/jokes.component';
+import { DataService } from './service/data.service';
 
 @Component({
   selector: 'app-root',

@@ -9,7 +9,7 @@ import { Observable } from 'rxjs/Rx';
 })
 export class JokesComponent implements OnInit {
   
-  public jokes;
+  public allJokes;
 
   constructor(private _dataService: DataService) { }
 
@@ -19,10 +19,8 @@ export class JokesComponent implements OnInit {
 
   getAllJokes(){
     this._dataService.getAllJokes().subscribe(
-      data => { this.jokes = data },
+      data => { this.allJokes = data },
+      err => console.error(err),
     );
   }
-
-  
-
 }
